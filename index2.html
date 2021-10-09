@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- 一定是先载入jQuery的源码然后再载入bootstrap的js源码 -->
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .header{
+            height: 20px;
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- container表示一个大的容器。即行 也可以继续使用row进行行划分 -->
+    <div class="container header">
+        <div class="row">
+            <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8">left</div>
+            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">right</div>
+        </div>
+    </div>
+</body>
+</html>
